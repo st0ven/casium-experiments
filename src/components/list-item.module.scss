@@ -1,0 +1,23 @@
+@import "../styles/variables.scss";
+
+.list-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  color: currentColor;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+
+  &.selected {
+    border-color: $color-active;
+  }
+
+  .checkbox {
+    margin: 0;
+    margin-right: 1rem;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+  }
+}

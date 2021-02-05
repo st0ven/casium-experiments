@@ -1,0 +1,12 @@
+@import-normalize;
+@import "./styles/variables.scss";
+
+.App{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	background: $color-background;
+	z-index: 1;
+}
