@@ -1,18 +1,5 @@
 @import "../styles/variables.scss";
 
-.sortable-list {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  align-items: flex-start;
-  justify-content: start;
-  list-style: none;
-  grid-row-gap: 0.5rem;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
 .button-group {
   display: flex;
   grid-gap: 0.5rem;
