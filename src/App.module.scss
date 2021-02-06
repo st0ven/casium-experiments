@@ -1,0 +1,26 @@
+@import "./styles/variables.scss";
+
+.list-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  grid-gap: 1rem;
+  padding: 1rem;
+  color: $color-black;
+  background: white;
+  border-radius: 0.5rem;
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 2rem);
+    height: 2rem;
+    left: 1rem;
+    background: $color-black;
+    filter: blur(0.5rem);
+    z-index: -1;
+    opacity: 0.5;
+  }
+}

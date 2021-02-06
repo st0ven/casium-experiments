@@ -3,11 +3,13 @@
 .list-item {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   color: currentColor;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.2rem;
-  padding: 0.5rem 1rem 0.5rem 0.5rem;
+	padding: 0.5rem 1rem 0.5rem 0.5rem;
+	width: 100%;
+	box-sizing: border-box;
 
   &.selected {
     border-color: $color-active;
